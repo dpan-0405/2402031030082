@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <style>
+        body {
+            background: url('NA.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: black;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        .btn-google, .btn-apple {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px 0;
+        }
+        .btn-google {
+            background: white;
+            border: 1px solid #ccc;
+        }
+        .btn-apple {
+            background: black;
+            color: white;
+        }
+        .login-link {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .login-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Create an account</h2>
+        <p>Please enter your details to start your journey</p>
+        <input type="text" placeholder="Enter your name" required>
+        <input type="tel" placeholder="Enter your number" required>
+        <input type="password" placeholder="Create a password" required>
+        <button class="btn">Create account →</button>
+        <button class="btn-google">Sign up with Google</button>
+        <button class="btn-apple">Sign up with Apple</button>
+        <p class="login-link">Already have an account? <a href="#">Sign in</a></p>
+    </div>
+</body>
+</html>
