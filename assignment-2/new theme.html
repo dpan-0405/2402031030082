@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Cards on Background</title>
+    <style>
+        body {
+            background: url('NA.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+        .card {
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card.yellow { background: #FFC107; }
+        .card.black { background: #000; color: white; }
+        .card.blue { background: #00AEEF; color: white; }
+    </style>
+</head>
+<body>
+    <div class="card blue">
+        <img src="https://source.unsplash.com/200x200/?hand" alt="Hand">
+    </div>
+    <div class="card yellow">
+        <img src="https://source.unsplash.com/50x50/?gameboy" alt="Gameboy">
+        <p>The disruptive and disorienting ways Covid-19 has changed the way we eat</p>
+    </div>
+    <div class="card black">
+        <img src="https://source.unsplash.com/50x50/?mailbox" alt="Mailbox">
+        <p>The disruptive and disorienting ways Covid-19 has changed the way we eat</p>
+    </div>
+</body>
+</html>
