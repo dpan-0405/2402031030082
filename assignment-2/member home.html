@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News</title>
+    <style>
+        body {
+            background: url('NA.jpg');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            align-self: flex-start;
+        }
+        .card-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .card {
+            width: 250px;
+            padding: 10px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            position: relative;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            padding: 10px;
+        }
+        .card p {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .bottom-nav {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 0;
+            border-radius: 10px;
+        }
+        .nav-item {
+            text-align: center;
+            color: black;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Latest</div>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://source.unsplash.com/250x150/?statue" alt="Statue of Liberty">
+            <p>Habitant odiofunic quam non id leo euismod magna. Neque sed</p>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/250x150/?nature" alt="Nature">
+            <div class="play-icon">▶</div>
+            <p>Covid-19 nunc quam non id leo euismod magna. Neque sed for drugs</p>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/250x150/?moon" alt="Moon">
+            <div class="play-icon">▶</div>
+            <p>Covid-19 nunc quam non id leo euismod magna. Neque sed for drugs</p>
+        </div>
+    </div>
+    <div class="bottom-nav">
+        <div class="nav-item">🏠 Home</div>
+        <div class="nav-item">👥 Members</div>
+        <div class="nav-item">📖 My Stories</div>
+        <div class="nav-item">🔍 Discover</div>
+    </div>
+</body>
+</html>
